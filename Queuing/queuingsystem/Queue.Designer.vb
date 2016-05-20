@@ -52,9 +52,9 @@ Partial Class Queue
         Me.Label2.ForeColor = System.Drawing.Color.LightGray
         Me.Label2.Location = New System.Drawing.Point(12, 26)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(318, 76)
+        Me.Label2.Size = New System.Drawing.Size(494, 76)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Welcome"
+        Me.Label2.Text = "राजश्व शाखा-QMS"
         '
         'Timer1
         '
@@ -119,7 +119,7 @@ Partial Class Queue
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.ForestGreen
-        Me.ClientSize = New System.Drawing.Size(1096, 692)
+        Me.ClientSize = New System.Drawing.Size(1020, 692)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
