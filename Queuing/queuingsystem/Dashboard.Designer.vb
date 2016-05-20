@@ -36,34 +36,34 @@ Partial Class Dashboard
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.YellowGreen
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(12, 23)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(146, 44)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Controller"
+        Me.Button1.Text = "कन्ट्रोलर"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.YellowGreen
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(12, 73)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(146, 71)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Queue Window"
+        Me.Button2.Text = "क्यु दृष्य"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.YellowGreen
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(12, 150)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(146, 44)
         Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Exit"
+        Me.Button3.Text = "बाहिर निस्कनुस"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'Time
@@ -99,9 +99,9 @@ Partial Class Dashboard
         Me.Label2.ForeColor = System.Drawing.Color.LightGray
         Me.Label2.Location = New System.Drawing.Point(319, 12)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(126, 31)
+        Me.Label2.Size = New System.Drawing.Size(108, 31)
         Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Welcome"
+        Me.Label2.Text = "स्वागत छ ।"
         '
         'LinkLabel1
         '

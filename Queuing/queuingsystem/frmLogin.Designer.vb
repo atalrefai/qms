@@ -28,6 +28,7 @@ Partial Class frmLogin
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
@@ -38,7 +39,7 @@ Partial Class frmLogin
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(178, 41)
         Me.Button1.TabIndex = 2
-        Me.Button1.Text = "OK"
+        Me.Button1.Text = "सही छ ।"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'TextBox1
@@ -66,28 +67,38 @@ Partial Class frmLogin
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(178, 41)
         Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Cancel"
+        Me.Button2.Text = "बन्द गर्नुस् ।"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(34, 34)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(87, 20)
+        Me.Label1.Size = New System.Drawing.Size(91, 26)
         Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Username:"
+        Me.Label1.Text = "प्रयोग कर्ता:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(34, 90)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(82, 20)
+        Me.Label2.Size = New System.Drawing.Size(69, 26)
         Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Password:"
+        Me.Label2.Text = "पासवर्ड:"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(130, 5)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(226, 26)
+        Me.Label4.TabIndex = 4
+        Me.Label4.Text = "धुलिखेल नगरपालिका कार्यालय"
         '
         'frmLogin
         '
@@ -96,6 +107,7 @@ Partial Class frmLogin
         Me.BackColor = System.Drawing.Color.ForestGreen
         Me.ClientSize = New System.Drawing.Size(480, 228)
         Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox2)
@@ -114,5 +126,5 @@ Partial Class frmLogin
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
-
+    Friend WithEvents Label4 As Label
 End Class
